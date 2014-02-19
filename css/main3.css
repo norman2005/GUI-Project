@@ -1,0 +1,134 @@
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+    
+    body {
+
+    /*   background-image: url("img/bg1.jpg"); */
+    background-color: #999 ;
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    background-attachment: fixed;
+    /*  This makes the main body be transparent */
+    opacity: 0.8;
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: left ;
+}
+.body{
+    margin: 0 auto ;
+    width: 95%;
+   font-size: 90% ;
+}
+a{
+    text-decoration: none ;
+}
+
+a:link ,a:visited {
+    color:#cf5c3f;
+
+}
+
+a:hover ,a:active {
+    background-color: #cf5c3f;
+    color: #fff;
+    border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    
+
+
+}
+.mainheader img {
+
+    width: 100% ;
+
+}
+.mainheader nav {
+ 
+    height: 160px;
+   
+}
+
+.mainheader nav ul {
+padding-left: 0 ;
+    }
+
+.mainheader nav ul li {
+
+    width: 100%;
+    text-align: center ;
+}
+ 
+}
+.mainheader nav a:link , .mainheader nav a:visited {
+    padding: 10px 25px ;
+    height: 20px ;
+    display: block ;
+}
+.mainheader nav a:hover , .mainheader nav a:active
+,.mainheader nav .active a:link ,.mainheader nav a.active a:visited{
+    background-color: #cf5c3f ;  
+    text-shadow: none ;
+}
+.mainContent {
+    line-height: 20px ;
+}
+.content {
+    width: 100% ;
+    float: left;
+    margin-top: 2%;
+}
+.topcontent{
+    background-color: yellowgreen;
+    border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    padding: 3% 5% ;
+    margin-top: 2%;
+    margin-bottom: 4% ;
+}
+.botomcontent{
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+.post-info {
+    display: none ;
+}
+.top-sidebar ,.bottom-sidebar , .middle-sidebar{
+    width: 95% ;
+    float: left ;
+    background-color: orchid ;
+    border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+.mainFooter{
+    width: 100% ;
+    float: left ;
+    background-color: #667 ;
+    border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    margin-bottom: 2%;
+
+}
+.mainFooter p {
+    height: 10px ;
+    width: 92% ;
+    margin: 2% auto ;
+    color: #fff;
+}
+.css3-valid1{
+    width: 25% ;
+    float: left ;
+    background-color:#999;
+    border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    margin-top: 15px;
+    margin-left: 5%;
+    text-align: left;
+}
